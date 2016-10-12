@@ -15,11 +15,13 @@ Folderstructuur, scripts, configuratie en data locatie voor Mongo DB deployment
 De folderstructuur als het zip bestand wordt uitgepakt op schijf C:   
     
     C:\mongodb\
+     | README
+     |-- backup\                  # mogelijke lokatie voor backups
      |-- config\
      |     mongo.config           # Configuratie om MongoDB als service te starten
      |     mongoSchijfD.config    # idem als folderstructuur op schijf D is geplaatst
      |-- data\                    # centrale locatie voor alle databases van de mongo service
-     |-- backup\                    # mogelijke lokatie voor backups
+     |-- images\                  # plaatjes voor README
      |-- logs\                    # mongo log files
      |-- scripts\                 # backup en restore scripts
      |     mongo-backup.bat

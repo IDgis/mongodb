@@ -19,7 +19,7 @@ De folderstructuur als het zip bestand wordt uitgepakt op schijf C:
      |     mongo.config           # Configuratie om MongoDB als service te starten
      |     mongoSchijfD.config    # idem als folderstructuur op schijf D is geplaatst
      |-- data\                    # centrale locatie voor alle databases van de mongo service
-     |-- dump\                    # mogelijke lokatie voor backups
+     |-- backup\                    # mogelijke lokatie voor backups
      |-- logs\                    # mongo log files
      |-- scripts\                 # backup en restore scripts
      |     mongo-backup.bat

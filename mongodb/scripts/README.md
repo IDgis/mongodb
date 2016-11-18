@@ -1,6 +1,7 @@
 # mongodb
 Scripts voor Mongo DB deployment.   
-Hier wordt van uitgegaan dat mongo op dezelfde machine draait met de mongo standaard poort (localhost:27017)  
+Voer de backup uit op de machine waarop de Composer (en de Geoide viewer) geïnstalleerd staat.
+Mongodb draait standaard op poort 27017 (localhost:27017)  
 
 Omdat de Mongo installatie de mongo programma's niet in het Windows PATH zet, moeten de scripts als volgt worden gestart:    
 Open een terminal (DOS prompt) en ga naar C:\Program Files\MongoDB 2.6 Standard\bin\   

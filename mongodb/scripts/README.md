@@ -11,8 +11,9 @@ Om de gegevens te backuppen:
 1. voer het script ``mongo-backup`` uit voor de betreffende database   
    ``mongo-backup.bat [folder voor database backup] [database naam]``  
    Voorbeeld:   
-   ``mongo-backup.bat C:\backup\geoide-composer geoide-composer-test``  
+   ``C:\mongodb\scripts\mongo-backup.bat C:\backup\geoide-composer geoide-composer-live``  
    NB. In de opgegeven backup folder wordt een subfolder gemaakt met de naam van de database.
+   NB2. Het pad naar het backup script is afhankelijk van waar de installatie staat (C,D,..)
 
 
 ## Restore

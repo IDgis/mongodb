@@ -12,7 +12,8 @@ Om de gegevens te backuppen:
    ``mongo-backup.bat [folder voor database backup] [database naam]``  
    Voorbeeld:   
    ``C:\mongodb\scripts\mongo-backup.bat C:\backup\geoide-composer geoide-composer-live``  
-    NB. In de opgegeven backup folder wordt een subfolder gemaakt met de naam van de database.
+    NB. In de opgegeven backup folder wordt een subfolder gemaakt met de naam van de database 
+        (dus 'geoide-composer-live' volgens het bovenstaande voorbeeld).
     NB2. Het pad naar het backup script is afhankelijk van waar de installatie staat (C,D,..)
 
 

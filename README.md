@@ -62,7 +62,7 @@ Om de gegevens te backuppen:
 1. voer het script ``mongo-backup`` uit voor de betreffende database.   
    ``C:\mongodb\scripts\mongo-backup.bat [folder voor database backup] [database naam]``  
    Voorbeeld:   
-   ``C:\mongodb\scripts\mongo-backup.bat C:\backup\geoide-composer geoide-composer-test``  
+   ``C:\mongodb\scripts\mongo-backup.bat C:\mongodb\backup geoide-composer``  
    NB. In de opgegeven backup folder wordt een subfolder gemaakt met de naam van de database.
 
 ### Restore
@@ -70,7 +70,7 @@ Om de gegevens te herstellen:
 1. voer het script ``mongo-restore`` uit voor de betreffende database.  
    ``C:\mongodb\scripts\mongo-restore.bat [folder van database backup\subfolder met database backup] [database naam]``  
    Voorbeeld:   
-   ``C:\mongodb\scripts\mongo-restore.bat C:\backup\geoide-composer\geoide-composer-test geoide-composer-test ``  
+   ``C:\mongodb\scripts\mongo-restore.bat C:\mongodb\backup\geoide-composer geoide-composer``  
    NB. bij restore wordt de bestaande database overschreven met de gegevens uit de restore folder.  
 
 
